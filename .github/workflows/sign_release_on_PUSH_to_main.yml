@@ -31,9 +31,6 @@ jobs:
         run:
           ./gradlew bundleRelease
       
-      - name: Create service_account.json
-        run: echo '${{ secrets.SERVICE_ACCOUNT_JSON }}' > service_account.json
-      
       - name: Upload AAB Bundle
         uses: actions/upload-artifact@v2
         with:
