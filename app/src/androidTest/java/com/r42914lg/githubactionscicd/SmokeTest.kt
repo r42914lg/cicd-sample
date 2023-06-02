@@ -17,8 +17,6 @@ import org.junit.Assert.*
 class SmokeTest {
     @Test
     fun smokeTest() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals(2 + 2, 4)
     }
 }
