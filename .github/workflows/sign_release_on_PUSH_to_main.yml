@@ -3,7 +3,7 @@ name: sign_release_on_PUSH_to_main
 on:
   push:
     branches:
-      - 'release'
+      - 'main'
       
 env:
   KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
