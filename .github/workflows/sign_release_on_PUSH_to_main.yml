@@ -41,7 +41,7 @@ jobs:
         uses: r0adkll/upload-google-play@v1
         with:
           serviceAccountJsonPlainText: ${{secrets.SERVICE_ACCOUNT}}
-          packageName: com.r42914lg.chatsandbox
+          packageName: com.r42914lg.githubactionscicd
           releaseFiles: app/build/outputs/bundle/release/app-release.aab
           track: internal
           status: draft
